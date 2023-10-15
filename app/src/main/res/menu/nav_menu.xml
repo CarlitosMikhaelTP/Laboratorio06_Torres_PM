@@ -26,6 +26,16 @@
             android:icon="@drawable/baseline_info_24"
             android:title="About Us" />
 
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Calculadora" />
+
+        <item
+            android:id="@+id/nav_Peliculas"
+            android:icon="@drawable/baseline_movie_24"
+            android:title="Peliculas" />
+
     </group>
 
     <item

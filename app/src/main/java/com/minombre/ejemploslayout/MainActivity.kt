@@ -54,6 +54,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_share -> supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, ShareFragment()).commit()
 
+            R.id.nav_calculadora -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, CalculadoraFragment()).commit()
+
+            R.id.nav_Peliculas -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, ContentMainFragment()).commit()
+
             R.id.nav_logout -> Toast.makeText(this,"Logout", Toast.LENGTH_SHORT).show()
 
         }
